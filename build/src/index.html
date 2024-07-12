@@ -3,10 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="build/src/output.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="/assets/spotify.png" type="image/x-icon">
+    <link rel="stylesheet" href="./output.css">
+    <title>Spotify Interface</title>
 </head>
-<body>
-    <div class="bg-black h-screen"></div>
+<body class="overflow-hidden h-screen bg-black text-zinc-300">
+    <div class="bg-[black] text-zinc-300">
+            <header class="bg-black p-2 flex top-0 left-0 right-0 justify-between text-lg">
+                <div class="text-zinc-600 flex relative top-5 gap-12 pl-4">
+                    <a href="#" class="text-5xl relative -top-6"><img src="/assets/Union.png" 
+                        class="relative top-9"></a>
+                    <div class="flex gap-4">
+                        <a href="#"><img src="/assets/Back.png" class="h-8"></a>
+                        <a href="#"><img src="/assets/Forward.png" class="h-8"></a>
+                    </div>
+                </div>
+                <div class="flex pt-2 gap-6">
+                    <a href="#" class=" bg-zinc-950 hover:bg-zinc-800 hover:scale-105 duration-200 rounded-full p-4 text-sm">Home</a>
+                    <div><input type="text" class="rounded-full px-32 py-3" placeholder="O que você quer ouvir?"></div>
+                </div>
+                <div class="flex relative top-5 gap-12 pr-4">
+                        <a href="" class="flex hover:scale-150 hover:translate-y-2 duration-300"><img src="/assets/User Plus_S.png" 
+                            class="h-6 w-6 scale-150"></a>
+                        <a href="" class="h-8 w-8 relative right-2 -top-1"><img src="/assets/astaicon.jpg" 
+                            class="rounded-full scale-125"></a>
+                    </div>
+            </header>
+                    
+        </div>
+
+        <div class="flex h-screen">
+            <aside class="w-96 h-[750px] bg-zinc-950 p-4 hover:overflow-y-auto overflow-hidden relative rounded-2xl my-2 mx-2">
+                <div class=" bg-zinc-950 sticky -top-4 left-0 pt-2 justify-evenly mt-100">
+                    <div class="flex gap-4 text-xl pb-6"><img src="/assets/Group 18.png" 
+                        class="h-6">
+                        <a href="#">Sua Biblioteca</a>
+                    </div>
+                    <div class="flex gap-2 text-md">
+                        <a href="#" class=" rounded-2xl p-1 px-3 bg-zinc-800 hover:bg-zinc-700 hover:scale-110 duration-150">Playlists</a>
+                        <a href="#" class=" rounded-2xl p-1 px-3 bg-zinc-800 hover:bg-zinc-700 hover:scale-110 duration-150">Podcast</a>
+                        <a href="#" class=" rounded-2xl p-1 px-3 bg-zinc-800 hover:bg-zinc-700 hover:scale-110 duration-150">Álbuns<a>
+                        <a href="#" class=" rounded-2xl p-1 px-3 bg-zinc-800 hover:bg-zinc-700 hover:scale-110 duration-150"> Artistas</a>
+                    </div>
+                    <div class="flex justify-between py-4">
+                        <a href="#" ><img src="/assets/Search_S.png" 
+                            class="h-6 pl-2"></a>
+                        <a href="#" class="relative left-28">Recentes</a> <img src="/assets/Options_XS.png" 
+                            class="w-6 flex relative top-0.5">
+                    </div>
+                </div>
+                    <div class="flex flex-col gap-2">
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/ep.png" class="w-14 rounded-md">Seus episódios
+                        <br>            Episódios salvos e baixados
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Matuê
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/travis.jpg" class="w-14 rounded-md">Goosebumps
+                        <br>        Musica - Travis Scott
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/ttf.jpg" class="w-14 rounded-md">Trap the fato
+                        <br>        Playlist - Derek
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/ret.jpg" class="w-14 rounded-md">This is Felipe Ret
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/teto.jpg" class="w-14 rounded-md">This is Teto
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/js.jpg" class="w-14 rounded-md">This is Jé Santiago
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/orochi.jpg" class="w-14 rounded-md">This is Orochi
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                         </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                         <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                         <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+                        <a href="#" class="flex gap-4 rounded-md hover:bg-zinc-800 p-2 hover:scale-95 duration-200"><img src="/assets/album.jpg" class="w-14 rounded-md">Maquina do tempo
+                        <br>        Playlist - Spotify
+                        </a>
+
+                        
+                    </div>
+            </aside>
+            <main class="flex-1">
+                <div class=" bg-zinc-950 rounded-2xl my-2 mx-2 h-[750px]">
+                    
+                </div>
+            </main>
+        </div>
+    </div>
+        <footer class="bg-black py-10 flex relative top-[-11rem] right-0 left-0">
+            footer
+        </footer>
 </body>
 </html>
